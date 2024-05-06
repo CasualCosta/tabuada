@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import { FaAngleRight, FaAngleLeft, FaAnglesLeft } from 'react-icons/fa6'
-import { number } from 'prop-types'
 import { Link } from 'react-router-dom'
-import Alternativa from './Alternativa'
 
 const parcelas = [1,2,3,4,5,6,7,8,9,10]
 const letras = ["a", "b", "c", "d", "e"]
