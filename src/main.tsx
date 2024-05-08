@@ -10,7 +10,6 @@ import ErrorPage from './routes/ErrorPage.tsx';
 import Tabuada from './routes/Tabuada.tsx';
 import Lista from './routes/Lista.tsx';
 
-
 const router = createBrowserRouter([
   {
     path: "/",

@@ -8,7 +8,7 @@ const Lista = () => {
             return <Link 
                 to={`tabuada/${numero}`} 
                 key={indice}
-                className='py-4 text-center bg-sky-600'
+                className='py-4 text-center bg-sky-600 hover:scale-105'
             >
                 <p>{numero}</p>
             </Link>
